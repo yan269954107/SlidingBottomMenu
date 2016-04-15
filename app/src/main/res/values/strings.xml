@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SlidingBottomMenu</string>
+
+    <string name="bottom_menu_message_1">消息1</string>
+    <string name="bottom_menu_message_2">消息2</string>
+    <string name="bottom_menu_message_3">消息3</string>
+    <string name="bottom_menu_message_4">消息4</string>
+
+    <string name="message_content">当前第%s页</string>
+</resources>

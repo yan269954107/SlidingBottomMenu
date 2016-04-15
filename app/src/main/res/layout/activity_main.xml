@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yanxinwei.slidingbottommenu.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp_content"
+        android:layout_above="@+id/ll_bottom_menu"/>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_menu"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:text="@string/bottom_menu_message_1"
+            android:id="@+id/txt_message1"
+            style="@style/BottomMenuTextStyle"/>
+
+        <TextView
+            android:text="@string/bottom_menu_message_2"
+            android:id="@+id/txt_message2"
+            style="@style/BottomMenuTextStyle"/>
+
+        <TextView
+            android:text="@string/bottom_menu_message_3"
+            android:id="@+id/txt_message3"
+            style="@style/BottomMenuTextStyle"/>
+
+        <TextView
+            android:text="@string/bottom_menu_message_4"
+            android:id="@+id/txt_message4"
+            style="@style/BottomMenuTextStyle"/>
+    </LinearLayout>
+</RelativeLayout>
